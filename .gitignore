@@ -1,0 +1,29 @@
+# Datasets
+actually/rgbd_dataset_freiburg1_desk2/
+actually/rgbd_dataset_freiburg1_room/
+
+# External repositories
+ORB_SLAM3/
+Pangolin/
+frame_getter/
+
+# Large Files 
+ply_files/dense_point_cloud_room_actually.ply
+ply_files/dense_point_cloud_room_FULL.ply
+ply_files/room_point_cloud_with_loop_closure.ply
+ply_files/desk_point_cloud_reconstructed.ply
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+.directory
