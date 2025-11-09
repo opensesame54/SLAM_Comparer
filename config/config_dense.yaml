@@ -1,0 +1,26 @@
+camera:
+  fx: 525.0
+  fy: 525.0
+  cx: 319.5
+  cy: 239.5
+  width: 640
+  height: 480
+  depth_scale: 5000.0
+
+sift:
+  n_features: 2500
+  contrast_threshold: 0.03
+  edge_threshold: 10
+  sigma: 1.6
+
+matcher:
+  ratio_threshold: 0.75
+  method: 'FLANN'
+
+min_matches: 25
+keyframe_interval: 3
+max_tracking_lost: 10
+use_dense_cloud: true
+dense_cloud_step: 2
+use_loop_closure: true
+loop_min_matches: 50
